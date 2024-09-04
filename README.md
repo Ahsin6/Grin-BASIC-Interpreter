@@ -25,60 +25,60 @@ END: End the program.
 
 # Dont copy paste the input! Enter each line individually!
 Example Input:
-LET NAME "Boo" /n
-LET AGE 13.015625 /n
-PRINT NAME /n
-PRINT AGE /n
+LET NAME "Boo" <br/>
+LET AGE 13.015625 <br/>
+PRINT NAME <br/>
+PRINT AGE <br/>
 .
 
 Example Output:
-Boo
+Boo <br/>
 13.015625
 
 Arithmetic operations:
 Example Input:
-LET A 4
-ADD A 3
-PRINT A
-LET B 5
-SUB B 3
-PRINT B
-LET C 6
-MULT C B
-PRINT C
-LET D 8
-DIV D 2
-PRINT D
+LET A 4 <br/>
+ADD A 3 <br/>
+PRINT A <br/>
+LET B 5 <br/>
+SUB B 3 <br/>
+PRINT B <br/>
+LET C 6 <br/>
+MULT C B <br/>
+PRINT C <br/>
+LET D 8 <br/>
+DIV D 2 <br/>
+PRINT D <br/>
 .
 
 Example Output:
-7
-2
-12
-4
+7 <br/>
+2 <br/>
+12 <br/>
+4 <br/>
 
 Subroutines
 
 There are no functions or methods in Grin, but there is a simplified mechanism called a subroutine. A subroutine is a sequence of Grin statements that can be "called" by executing a GOSUB statement.
 
 Example Input:
-LET A 1
-GOSUB 5
-PRINT A
-END
-LET A 3
-RETURN
-PRINT A
-LET A 2
-GOSUB -4
-PRINT A
-RETURN
+LET A 1 <br/>
+GOSUB 5 <br/>
+PRINT A <br/>
+END <br/>
+LET A 3 <br/>
+RETURN <br/>
+PRINT A <br/>
+LET A 2 <br/>
+GOSUB -4 <br/>
+PRINT A <br/>
+RETURN <br/>
 .
 
 Example Output:
-1
-3
-3
+1 <br/>
+3 <br/>
+3 <br/>
 
 
 
