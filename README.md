@@ -24,18 +24,18 @@ RETURN: Return from a subroutine.
 END: End the program.
 
 # Dont copy paste the input! Enter each line individually!
-Example Input:
+Example Input: <br/>
 LET NAME "Boo" <br/>
 LET AGE 13.015625 <br/>
 PRINT NAME <br/>
 PRINT AGE <br/>
 .
 
-Example Output:
+Example Output: <br/>
 Boo <br/>
 13.015625
 
-Arithmetic operations:
+Arithmetic operations: <br/>
 Example Input:
 LET A 4 <br/>
 ADD A 3 <br/>
@@ -51,7 +51,7 @@ DIV D 2 <br/>
 PRINT D <br/>
 .
 
-Example Output:
+Example Output: <br/>
 7 <br/>
 2 <br/>
 12 <br/>
@@ -61,7 +61,7 @@ Subroutines
 
 There are no functions or methods in Grin, but there is a simplified mechanism called a subroutine. A subroutine is a sequence of Grin statements that can be "called" by executing a GOSUB statement.
 
-Example Input:
+Example Input: <br/>
 LET A 1 <br/>
 GOSUB 5 <br/>
 PRINT A <br/>
@@ -75,7 +75,7 @@ PRINT A <br/>
 RETURN <br/>
 .
 
-Example Output:
+Example Output: <br/>
 1 <br/>
 3 <br/>
 3 <br/>
