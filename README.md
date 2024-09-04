@@ -25,10 +25,10 @@ END: End the program.
 
 # Dont copy paste the input! Enter each line individually!
 Example Input:
-LET NAME "Boo"
-LET AGE 13.015625
-PRINT NAME
-PRINT AGE
+LET NAME "Boo" /n
+LET AGE 13.015625 /n
+PRINT NAME /n
+PRINT AGE /n
 .
 
 Example Output:
